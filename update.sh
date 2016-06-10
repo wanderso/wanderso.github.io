@@ -3,13 +3,11 @@
 COMMITMSG="Testing modified update script"
 
 for i in "$@"
-do
-case $i in
-    -c=*|--commitmsg=*)
-    COMMITMSG="${i#*=}"
-    echo "Can you hear me?"
-    shift # past argument=value
-    ;;
+do     
+case $1 in
+        -c | --commitmsg )      shift
+                                COMMITMSG=$1
+                                ;;
 esac
 done
 
