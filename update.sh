@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMMITMSG="Ran default update script"
+COMMITMSG="Testing modified update script"
 
 for i in "$@"
 do
