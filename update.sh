@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMMITMSG = "Ran default update script"
+COMMITMSG="Ran default update script"
 
 for i in "$@"
 do
@@ -13,5 +13,5 @@ esac
 done
 
 git add --all
-git commit -m \"COMMITMSG\"
+git commit -m "$COMMITMSG"
 git push -u origin master
