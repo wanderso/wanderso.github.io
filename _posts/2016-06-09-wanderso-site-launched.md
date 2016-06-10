@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Wanderso launches site"
-date: 2016-06-09
+date: 2016-06-09 01:40:45
 ---
 
 Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
