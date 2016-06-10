@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Wanderso launches site"
+title: "Multi-post test"
 date: 2016-06-09
 ---
 
