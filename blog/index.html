@@ -6,7 +6,8 @@ title: Wanderso's Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <h1>{{ post.title }}</h1>
+	    <h3>{{ post.title }}</h3>
             <p class="meta">{{ post.date | date_to_string }}</p>
+            <div class="post">{{ post.content }}</div>
 	  {% endfor %}
 	</ul>
