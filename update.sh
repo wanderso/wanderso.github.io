@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COMMITMSG="Testing modified update script"
+COMMITMSG="Default commit from update script"
 
 for i in "$@"
 do     
