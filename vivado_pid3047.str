@@ -259,3 +259,12 @@ selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_ADD_REPOSITORY, "Ad
 // HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/17/16 9:20:43 PM PDT
 // HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/17/16 9:50:43 PM PDT
 // HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/17/16 10:20:43 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/17/16 10:50:43 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/17/16 11:20:43 PM PDT
+// Elapsed time: 81239 seconds
+dismissFolderChooser();
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REFRESH_ALL, "Refresh All"); // a:JButton (F:JPanel, k:aP)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 66 MB. Current time: 6/17/16 11:50:43 PM PDT
