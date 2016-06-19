@@ -364,3 +364,13 @@ collapseTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking ;
 expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking ;  ;  ;  ; ", 7); // O:as (JViewport:JComponent, cv:JFrame)
 // Elapsed time: 88 seconds
 setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+// Elapsed time: 138 seconds
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+// Elapsed time: 83 seconds
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+// Elapsed time: 21 seconds
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+// Elapsed time: 25 seconds
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
