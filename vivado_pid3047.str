@@ -340,3 +340,27 @@ dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMe
 // HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 5:20:45 PM PDT
 // HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 5:50:45 PM PDT
 // HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 6:20:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 6:50:45 PM PDT
+// Elapsed time: 18957 seconds
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, U:aP)
+dismissDialog("Vivado Options"); // U:aP (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,230 MB. GUI used memory: 57 MB. Current time: 6/18/16 6:57:01 PM PDT
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
+// Elapsed time: 108 seconds
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Peripheral ;  ;  ;  ; ", 1); // O:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "FPGA Features and Design ;  ;  ;  ; ", 6); // O:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "UserIP ;  ;  ;  ; ", 8); // O:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video & Image Processing ;  ;  ;  ; ", 18); // O:as (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 61 seconds
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking ;  ;  ;  ; ", 7); // O:as (JViewport:JComponent, cv:JFrame)
+collapseTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking ;  ;  ;  ; ", 7); // O:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking ;  ;  ;  ; ", 7); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking ;  ;  ;  ; ", 7, "Clocking", 0, false, false, false, false, false, true); // O:as (JViewport:JComponent, cv:JFrame) - Double Click
+collapseTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking ;  ;  ;  ; ", 7); // O:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking ;  ;  ;  ; ", 7); // O:as (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 88 seconds
+setText("PAResourceItoN.IPCoreView_IP_CATALOG_SEARCH_FIELD", (String) null); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cv:JFrame)
