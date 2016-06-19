@@ -268,3 +268,75 @@ selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_REFRESH_ALL, "Refre
 // Tcl Message: update_ip_catalog -rebuild 
 // Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
 // HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 66 MB. Current time: 6/17/16 11:50:43 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 12:20:43 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 12:50:43 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 52 MB. Current time: 6/18/16 1:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 1:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 2:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 2:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 3:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 3:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 4:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 4:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 5:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 5:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 6:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 6:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 7:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 7:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 8:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 8:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 9:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 9:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 10:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 10:50:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 11:20:44 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 11:50:45 AM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 12:20:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 12:50:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 52 MB. Current time: 6/18/16 1:20:45 PM PDT
+// Elapsed time: 49448 seconds
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /home/wanderso/Downloads/vivado-library-master [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/wanderso/Downloads/vivado-library-master'. 
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// Vivado Options: addNotify
+setText(PAResourceTtoZ.ToolOptionsGeneralPage_SPECIFY_MODELSIM_INSTALL_PATH, (String) null); // aq:ao (ap:JPanel, U:aP)
+// Elapsed time: 490 seconds
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, U:aP)
+dismissDialog("Vivado Options"); // U:aP (cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Elapsed time: 25 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Customize Commands"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(RDIResourceCommand.RDICommands_OPTIONS, "Options..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_OPTIONS
+// Vivado Options: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 66 MB. Current time: 6/18/16 1:50:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 52 MB. Current time: 6/18/16 2:20:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 2:50:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 3:20:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 52 MB. Current time: 6/18/16 3:50:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 4:20:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 4:50:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 5:20:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 5:50:45 PM PDT
+// HMemoryUtils.trashcanNow. Engine heap size: 5,228 MB. GUI used memory: 51 MB. Current time: 6/18/16 6:20:45 PM PDT
