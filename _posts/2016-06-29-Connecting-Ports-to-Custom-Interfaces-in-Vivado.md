@@ -7,7 +7,7 @@ When first starting work with custom IP in Xilinx, it can be difficult to connec
 
 ![The problem.](https://github.com/wanderso/wanderso.github.io/blob/master/blog/images/2016-06-15_problem_in_block_design.png)
 
-For this example post, we'll be using the [Arty Artix-7 FPGA Development Board](http://www.digikey.com/catalog/en/partgroup/arty-artix-7-fpga-development-board/57656?WT.srch=1&gclid=CJzEjPqVrc0CFcdhfgodGH8IQA) with the [Organic-LED RGB](http://store.digilentinc.com/pmodoledrgb-96-x-64-rgb-oled-display-with-16-bit-color-resolution/) *P*eripheral **Mod**ule
+For this example post, we'll be using the [Arty Artix-7 FPGA Development Board](http://www.digikey.com/catalog/en/partgroup/arty-artix-7-fpga-development-board/57656?WT.srch=1&gclid=CJzEjPqVrc0CFcdhfgodGH8IQA) with the [Organic-LED RGB](http://store.digilentinc.com/pmodoledrgb-96-x-64-rgb-oled-display-with-16-bit-color-resolution/) *P*eripheral *Mod*ule.
 
 ![Pmod from Digilent with pin missing](https://github.com/wanderso/wanderso.github.io/blob/master/blog/images/2016-06-15_no_pin.png)
 
