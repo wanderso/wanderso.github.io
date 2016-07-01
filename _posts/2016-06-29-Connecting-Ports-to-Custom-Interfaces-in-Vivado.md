@@ -5,6 +5,7 @@ date: 2016-06-29 20:15:19
 ---
 When first starting work with custom IP in Xilinx, it can be difficult to connect custom interfaces to ports. Interface ports don't follow the same rules as normal buses in Vivado, so this page is a guide to a variety of common mishaps. 
 
+<img src="https://github.com/wanderso/wanderso.github.io/blob/master/blog/images/2016-06-15_problem_in_block_design.png" border="0" alt="The problem." style="max-width:100%/>
 ![The problem.](https://github.com/wanderso/wanderso.github.io/blob/master/blog/images/2016-06-15_problem_in_block_design.png){:style="max-width:100%;"}
 
 For this example post, we'll be using the [Arty Artix-7 FPGA Development Board](http://www.digikey.com/catalog/en/partgroup/arty-artix-7-fpga-development-board/57656?WT.srch=1&gclid=CJzEjPqVrc0CFcdhfgodGH8IQA) with the [Organic-LED RGB](http://store.digilentinc.com/pmodoledrgb-96-x-64-rgb-oled-display-with-16-bit-color-resolution/) *P*eripheral *Mod*ule.
