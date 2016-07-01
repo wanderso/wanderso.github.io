@@ -39,11 +39,11 @@ Then, use the search bar to find your custom device.
 
 ![PMod](https://github.com/wanderso/wanderso.github.io/blob/master/blog/images/2016-06-18_Add_PMOD.png)
 
-Once the device has been added to the board, the interface is needed for the PMod to communicate with the rest of the board. Note the + and the ||| on the device's right edge. This indicates that a special 'interface port' is used here, and not a standard wire or bus. 
+Once the device has been added to the board, the interface is needed for the PMod to communicate with the rest of the board. Note the + and the \|\|\| on the device's right edge. This indicates that a special 'interface port' is used here, and not a standard wire or bus. 
 
 ![PMod](https://github.com/wanderso/wanderso.github.io/blob/master/blog/images/2016-06-15_no_pin.png)
 
-When using the Arty and a PMod for this demonstration, plug the PMod into the connector of your choice. Then, select the 'board' view on the Sources//Design//Signals//Board pane just below the block design. Scroll down to the section listing the PMod connectors on the board, then click and drag the connector you selected to the +||| pin on the IP block. If you have the custom IP and the Interfaces both installed, this will connect the interface to the port, creating a new pin for Vivado to use.
+When using the Arty and a PMod for this demonstration, plug the PMod into the connector of your choice. Then, select the 'board' view on the Sources//Design//Signals//Board pane just below the block design. Scroll down to the section listing the PMod connectors on the board, then click and drag the connector you selected to the +\|\|\| pin on the IP block. If you have the custom IP and the Interfaces both installed, this will connect the interface to the port, creating a new pin for Vivado to use.
 
 ![After the pin is connected](https://github.com/wanderso/wanderso.github.io/blob/master/blog/images/20160615_when_pin_connected.png)
 
